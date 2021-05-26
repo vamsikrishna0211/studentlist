@@ -1,0 +1,33 @@
+body {
+  background-color: #aabbfa;
+}
+.App {
+  background-color: #3452ff;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#student-list input {
+  background-color: rgb(27,112,137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: black;
+}
+#student-list input::placeholder {
+  color:silver;
+}
+#student-list input:focus,#student-list button:focus {
+  outline: none;
+}
+#student-list button {
+  background-color: skyblue;
+  height: 50px;
+  width: 90px;
+  font-weight: bolder;
+  cursor: pointer;
+}
