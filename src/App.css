@@ -1,8 +1,8 @@
 body {
-  background-color: #aabbfa;
+  background-color: #fbfbfd;
 }
 .App {
-  background-color: #3452ff;
+  background-color: black;
   min-height: 500px;
   width: 400px;
   margin: 40px auto;
@@ -16,7 +16,7 @@ body {
   margin: 20px;
   font-size: 18px;
   border-radius: 10px;
-  color: black;
+  color: whitesmoke;
 }
 #student-list input::placeholder {
   color:silver;
